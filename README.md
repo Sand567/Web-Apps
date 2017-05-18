@@ -32,3 +32,5 @@ Features
 6. Get Order Confirmation
 7. Auto-Complete Search - AJAX
 8. Tweets of the related Menu item
+9. Order Tracking
+10. Table Booking
