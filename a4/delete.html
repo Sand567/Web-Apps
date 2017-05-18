@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 " + "Transitional//EN\">
+
+<html>
+<head>
+<style>
+input[type=text] {
+	width:100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Delete Product</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+<div id = "container">
+<header>
+<h1>Best<span>Deal</span></h1>
+<h2>The best ever deal you will ever get!</h2>
+</header>
+<nav>
+  	<ul>
+       	<li style="float:right";><a href="logout.jsp">Logout</a></li>
+    </ul>
+</nav>
+<div id="body">
+		<section id="content">
+	    <article>
+		<h3>Delete Product</h3>
+		<h2>Enter the ID to delete</h2>
+		<form action="/a4/DeleteProductServlet" method="post">
+		<table>
+		<tr>
+		<td>Id <input type = "text" name = "pid"></input></td></tr>
+		<tr>
+		<td>category <select name="pcategory"><option value="Smartphones">Smartphones</option><option value = "Laptops">Laptops<option value= "Tablets">Tablets</option><option value="TV">TV</option></select></td></tr>
+		<tr><td><input type = "submit" value="DELETE" /></td></tr>
+		</table>
+		</article>
+		</section>
+</div>
+<div class="clear"></div>
+<footer>
+<div class="footer-bottom">
+<p>Best Deal <a href="http://BestDeal.com/">2016</a></p>
+</div>
+</footer>
+</div>
+</body>
+</html>

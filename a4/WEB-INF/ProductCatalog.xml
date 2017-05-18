@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <Laptop id="001" retailer="BestDeal" category = "Laptop" zipcode = "60616">
+        <image>toshiba.png</image>
+        <name>Toshiba 444</name>
+        <condition>New</condition>
+        <price>399</price>
+    </Laptop>
+    <Laptop id="002" retailer="BestDeal" category = "Laptop" zipcode = "60617">
+        <image>toshiba.png</image>
+        <name>Dell Inspiron</name>
+        <condition>Refurbished</condition>
+        <price>299</price>
+    </Laptop>
+	<Laptop id="003" retailer="BestDeal" category = "Laptop" zipcode = "60618">
+        <image>toshiba.png</image>
+        <name>Asus 555</name>
+        <condition>New</condition>
+        <price>699</price>
+    </Laptop>
+	<Laptop id="004" retailer="BestDeal" category = "Laptop" zipcode = "60616">
+        <image>toshiba.png</image>
+        <name>Samsung 777</name>
+        <condition>New</condition>
+        <price>699</price>
+    </Laptop>
+	
+	
+	<TV id="005" retailer="BestDeal" category = "TV" zipcode = "60619">
+        <image>toshiba.png</image>
+        <name>LG Super Thin</name>
+        <condition>New</condition>
+        <price>399</price>
+    </TV>
+    <TV id="006" retailer="BestDeal" category = "TV" zipcode = "60619">
+        <image>toshiba.png</image>
+        <name>Samsung Ultra Slim</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+    </TV>
+	<TV id="007" retailer="BestDeal" category = "TV" zipcode = "60617">
+        <image>toshiba.png</image>
+        <name>Emerson Ultra</name>
+        <condition>New</condition>
+        <price>699</price>
+    </TV>
+	<TV id="008" retailer="BestDeal" category = "TV" zipcode = "60618">
+        <image>toshiba.png</image>
+        <name>Apple TV</name>	
+        <condition>New</condition>
+        <price>699</price>
+    </TV>
+	
+	
+	<Smartphone id="009" retailer="BestDeal" category = "Smartphone" zipcode = "60620">
+        <image>toshiba.png</image>
+        <name>Samsung S6</name>
+        <condition>New</condition>
+        <price>399</price>
+    </Smartphone>
+    <Smartphone id="010" retailer="BestDeal" category = "Smartphone" zipcode = "60620">
+        <image>toshiba.png</image>
+        <name>Apple iphone 6</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+    </Smartphone>
+	<Smartphone id="011" retailer="BestDeal" category = "Smartphone" zipcode = "60616">
+        <image>toshiba.png</image>
+        <name>Sony T4</name>
+        <condition>New</condition>
+        <price>699</price>
+    </Smartphone>
+	<Smartphone id="012" retailer="BestDeal" category = "Smartphone" zipcode = "60620">
+        <image>toshiba.png</image>
+        <name>Panasonic 333</name>
+        <condition>New</condition>
+        <price>699</price>
+    </Smartphone>
+	
+	
+	<Tablet id="013" retailer="BestDeal" category = "Tablet" zipcode = "60617">
+        <image>toshiba.png</image>
+        <name>Amazon Kindle</name>
+        <condition>New</condition>
+        <price>399</price>
+
+    </Tablet>
+    <Tablet id="014" retailer="BestDeal" category = "Tablet" zipcode = "60619">
+        <image>toshiba.png</image>
+        <name>Apple ipad</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+    </Tablet>
+	<Tablet id="015" retailer="BestDeal" category = "Tablet" zipcode = "60618">
+        <image>toshiba.png</image>
+        <name>Samsung Tab</name>
+        <condition>New</condition>
+        <price>699</price>
+    </Tablet>
+	<Tablet id="016" retailer="BestDeal" category = "Tablet" zipcode = "60620">
+        <image>toshiba.png</image>
+        <name>Sony Tab</name>
+        <condition>New</condition>
+        <price>699</price>
+    </Tablet>
+
+</ProductCatalog>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>testWeb</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>BookNowServlet</servlet-name>
+    <servlet-class>BookNowServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookNowServlet</servlet-name>
+    <url-pattern>/booknow</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TableBookingServlet</servlet-name>
+    <servlet-class>TableBookingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TableBookingServlet</servlet-name>
+    <url-pattern>/tablebooking</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TrackOrderServlet</servlet-name>
+    <servlet-class>TrackOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrackOrderServlet</servlet-name>
+    <url-pattern>/trackorder</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/Hello</url-pattern>
+  </servlet-mapping> 
+
+          <servlet>
+      <servlet-name>autocomplete</servlet-name>
+      <servlet-class>AutoCompleteServlet</servlet-class>
+   </servlet>
+   
+      <servlet-mapping>
+      <servlet-name>autocomplete</servlet-name>
+      <url-pattern>/autocomplete</url-pattern>
+   </servlet-mapping>
+  <servlet>
+    <servlet-name>DisplayServlet</servlet-name>
+    <servlet-class>DisplayServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayServlet</servlet-name>
+    <url-pattern>/display</url-pattern>
+  </servlet-mapping> 
+</web-app>

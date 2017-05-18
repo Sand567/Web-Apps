@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 " + "Transitional//EN\">
+
+<html>
+<head>
+<style>
+input[type=text] {
+	width:100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 6px;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Add Product</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+<div id = "container">
+<header>
+<h1>Best<span>Deal</span></h1>
+<h2>The best ever deal you will ever get!</h2>
+</header>
+    <nav>
+    	<ul>
+        	<li style="float:right";><a href="LogoutServlet">Logout</a></li>
+        </ul>
+    </nav>
+	<div id="body">		
+		<section id="content">
+	    <article>
+		<h3>Add Product</h3>
+		<form action="/a4/AddProductServlet" method="post">
+		<table>
+		<tr>
+		<td>Name <input type = "text" name = "pname"></input></td></tr>
+		<tr>
+		<td>Id <input type = "number" min = "001" max = "150" name = "pid"></input></td></tr>
+		<tr>
+		<td>Retailer <input type = "text" name = "pretailer"></input></td></tr>
+		<tr>
+		<td>Price <input type = "text" name = "pprice"></input></td></tr>
+		<tr>
+		<td>Condition <input type = "text" name = "pcondition"></input></td></tr>
+		<tr>
+		<td>Zipcode <input type = "text" name = "pzip"></input></td></tr>
+		<tr>
+		<td>category <select name="pcategory"><option value="Smartphones">Smartphones</option><option value = "Laptops">Laptops<option value= "Tablets">Tablets</option><option value="TV">TV</option></select></td></tr>
+		<tr><td><input type = "submit" value="ADD" /></td></tr>
+		</table>
+		</form>
+		</article>
+		</section>
+	</div>
+	<div class="clear"></div>
+<footer>
+<div class="footer-bottom">
+<p>Best Deal <a href="http://BestDeal.com/">2016</a></p>
+</div>
+</footer>
+</div>
+</body>
+</html>
